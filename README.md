@@ -1,116 +1,99 @@
-# Welcome to Nextjs-blog
-
-This is a next-blog app that allows users to create, edit, and publish their own blog posts, as well as browse and comment on other posts. The blog app also features a responsive design, a user authentication system, and a rich text editor. This app is built with Next.js, Tailwind CSS, TypeScript, and MongoDB.
-
-## Technologies Used
-
-This project uses the following technologies:
-
-- [Next.js]: A React framework for building fast and scalable web applications.
-- [Tailwind CSS]: A utility-first CSS framework for rapidly building custom designs.
-- [TypeScript]: A superset of JavaScript that adds static types and other features.
-- [MongoDB]: A document-based database that stores data in JSON-like format.
-- [NextAuth.js]: A library for implementing authentication and authorization in Next.js apps.
-- [React Query]: A library for fetching, caching, and updating data in React apps.
-- [React Hook Form]: A library for building forms with React hooks.
-- [Redux toolkit]: A library for managing and centralizing application state.
-
-## Features
-
-- Create, edit, and delete blog posts using Markdown
-- Preview your blog posts before publishing
-- Add tags and images to your blog posts
-- Follow topics and authors that interest you
-- Comment on blog posts and join discussions
-- React to blog posts with emojis
-- Bookmark blog posts for later reading
-- View your profile and stats
-- Edit your profile and settings
-- View the latest, top, and trending blog posts
-
-## Installation
-
-To run this project locally, you need to have Node.js, npm, and MongoDB installed on your machine.
-
-1. Clone this repo to your local machine using `git clone https://github.com/tehseen01/nextjs-blog.git`
-2. Navigate to the project directory using `cd nextjs-blog`
-3. Install the dependencies using `npm install`
-4. Create a `.env` file in the root directory and add the following variables:
-    - `MONGO_URI`: The connection string to your MongoDB database
-    - `JWT_SECRET`: The secret key for JSON Web Token authentication
-    - `CLOUDINARY_URL`: The connection string to your Cloudinary account for image uploading
-5. Start the development server using `npm run dev`
-6. Open your browser and go to `http://localhost:3000` to view the app
-
-## Usage
-
-To use this app, you need to create an account or log in with an existing one.
-
-To create a new blog post, follow these steps:
-
-1. Click on the **create a post** button on the top right corner of the homepage
-2. Enter a title and write your content using Markdown syntax
-3. Add tags and an image to your post if you want
-4. Click on the **Preview** button to see how your post will look like
-5. Click on the **Save draft** button to save your post as a draft or click on the **Publish** button to publish your post
-
-To edit or delete an existing blog post, follow these steps:
-
-1. Go to your profile page and click on the **Dashboard** tab
-2. Find the blog post you want to edit or delete and click on the **Edit** or **Delete** button
-3. Make the changes you want or confirm the deletion
-
-To follow topics or authors, follow these steps:
-
-1. Go to the homepage and click on the **Topics** tab
-2. Browse through the topics and click on the ones you want to follow
-3. Go to any blog post and click on the author's name or profile picture
-4. Click on the **Follow** button on their profile page
-
-To comment on blog posts or join discussions, follow these steps:
-
-1. Go to any blog post and scroll down to the **Comments** section
-2. Write your comment in the text box and click on the **Submit** button
-3. Reply to other comments or react with emojis
-
-To bookmark blog posts for later reading, follow these steps:
-
-1. Go to any blog post and click on the **Bookmark** icon on the bottom right corner of the post
-2. Go to your profile page and click on the **Reading list** tab
-3. View your bookmarked posts and click on them to read them
-
-To view your profile and stats, follow these steps:
-
-1. Go to your profile page by clicking on your profile picture on the top right corner of any page
-2. Click on the **Profile** tab to see your basic information, bio, skills, social links, etc.
-3. Click on the **Stats** tab to see your post views, reactions, comments, followers, etc.
-
-To edit your profile and settings, follow these steps:
-
-1. Go to your profile page by clicking on your profile picture on the top right corner of any page
-2. Click on the **Settings** tab to see your account settings, email preferences, notifications, etc.
-3. Make the changes you want and click on the **Save changes** button
-
-To view the latest, top, and trending blog posts, follow these steps:
-
-1. Go to the homepage and click on the **Latest**, **Top**, or **Trending** tabs
-2. Browse through the blog posts and click on them to read them
-
-## Contribution
-
-This project is open for contributions. If you want to contribute to this project, please follow these guidelines:
-
-- Fork this repository and create a new branch for your feature or bug fix.
-- Write clear and descriptive commit messages and pull request titles.
-- Follow the code style and conventions of the project.
-- Commit and push your changes to GitHub
-- Test your code before submitting a pull request.
-- Respect the code of conduct and be kind to other contributors.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-If you have any questions or feedback about this project, feel free to contact me at [tehseen.type@gmail.com](mailto:tehseen.type@gmail.com).
+TEN Blog Documentation
+1. Introduction
+1.1 Project Description
+TEN Blog is a feature-rich blogging platform built using Next.js, allowing users to create, edit, and manage blog posts using Markdown. It includes features like user authentication, comments, reactions, bookmarking, and profile management. The platform provides a seamless user experience with a responsive design and efficient backend integration with MongoDB.
+1.2 Project Profile
+•	Project Name: TEN Blog
+•	Framework: Next.js
+•	Database: MongoDB
+•	DBMS: Prisma RDBMS
+•	Styling: Tailwind CSS
+•	Authentication: NextAuth.js
+•	State Management: Redux Toolkit
+•	Data Fetching: React Query
+•	Form Handling: React Hook Form
+•	Rich Text Support: Markdown
+•	Hosting: Localhost
+2. Environment Description
+2.1 Hardware and Software Requirements
+Hardware Requirements:
+•	Processor: Intel Core i5 or higher
+•	RAM: 4GB or higher
+•	Storage: 2GB SSD or higher
+•	Internet Connection: Required for cloud-based services
+ 
+Software Requirements:
+•	Operating System: Windows/Linux/macOS
+•	Node.js: v18 or higher
+•	MongoDB: v6 or higher
+•	Code Editor: VS Code
+•	Package Manager: npm or yarn
+2.2 Technologies Used
+•	Next.js: React framework for server-side rendering and static site generation
+•	Tailwind CSS: Utility-first CSS framework for styling
+•	TypeScript: Strongly typed JavaScript for improved maintainability
+•	MongoDB: NoSQL database for storing user and blog data
+•	NextAuth.js: Authentication library for managing user sessions
+•	React Query: Efficient data fetching and caching
+•	React Hook Form: Simplifies form handling
+•	Redux Toolkit: Centralized state management
+•	Cloudinary: Image hosting and management
+3. System Analysis and Planning
+3.1 Feasibility Study
+•	Technical Feasibility: The system is built on modern web technologies with proven reliability and scalability.
+•	Economic Feasibility: Low-cost development with open-source tools and frameworks.
+•	Operational Feasibility: User-friendly interface and minimal learning curve for end users.
+3.2 Requirement Gathering and Analysis
+•	User Roles: Admin, Author, Reader
+•	Core Functionalities: Blog creation, commenting, bookmarking, user profile management
+•	Security Requirements: User authentication, access control, data encryption
+•	Performance Metrics: Fast load times, optimized queries, scalable architecture
+4. Proposed System
+4.1 Scope
+•	Provide a platform for users to publish blogs.
+•	Enable discussions through comments and reactions.
+•	Offer personalized content based on user preferences.
+4.2 Project Modules
+1.	User Authentication Module – Manages sign-in, sign-out, and session persistence.
+2.	Blog Management Module – Allows users to create, edit, delete, and publish blogs.
+3.	Comment and Reaction Module – Enables discussions and emoji-based reactions.
+4.	Profile Management Module – Handles user profiles, settings, and activity logs.
+5.	Bookmarking Module – Saves blog posts for later reading.
+4.3 Module-wise Objectives/Functionalities Constraints
+•	Authentication Module: Secure login/logout with JWT and session-based authentication.
+•	Blog Management Module: Supports Markdown-based editing, media uploads, and drafts.
+•	Comment Module: Enables threaded discussions with real-time updates.
+•	Profile Module: Allows users to update their details and manage settings.
+5. Detail Planning
+5.1 Data Flow Diagram / UML
+Includes graphical representation of data flow in the system.
+5.2 Process Specification / Activity Flow Diagram
+Detailed step-by-step representation of processes in the application.
+5.3 Data Dictionary
+Defines the database schema, including tables, attributes, and relationships.
+5.4 Entity-Relationship Diagram / Class Diagram
+Illustrates the relationships between different entities in the database.
+6. System Design
+6.1 Database Design
+•	Collections: Users, Posts, Comments, Reactions, Bookmarks
+•	Schema Details: Fields, relationships, and indexing strategy
+6.3 Input Design
+•	User Registration: Email, password, username
+•	Blog Creation: Title, content, tags, images
+6.4 Output Design
+•	Blog Post Page: Displays blog content, author, reactions, and comments.
+•	Profile Page: Shows user details, posts, and statistics.
+7. Software Testing
+•	Unit Testing: Testing individual components (React Testing Library, Jest)
+•	Integration Testing: Ensuring smooth data flow between frontend and backend
+•	End-to-End Testing: Complete user flow testing (Cypress, Playwright)
+8. Limitations and Future Scope of Enhancements
+•	Limitations: 
+o	No built-in monetization features
+o	No real-time collaboration on blog editing
+•	Future Enhancements: 
+o	Adding AI-powered content recommendations
+o	Implementing a subscription-based model
+o	Introducing analytics for blog performance
+9. References
+•	Official documentation for Next.js, MongoDB, NextAuth.js, and other technologies used.
